@@ -1,0 +1,13 @@
+Info: Processing symbol 'J1:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J2:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J3:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J4:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J5:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J6:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J7:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J8:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J9:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'J10:Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical'.
+
+
+Info: Total warnings: 0, errors: 0.

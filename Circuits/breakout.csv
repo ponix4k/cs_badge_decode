@@ -1,0 +1,7 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J5,J7,J8,J2,J4,J9,J6,J3";"TestPoint_Pad_2.0x2.0mm";8;"Bit";;;
+2;"4A1,6A1,5A1,3A1,5B1,7A1,0B1,6B1,3B1,4B1,1B1,0A1,2A1,1A1,7B1,2B1";"R_1206_3216Metric";16;"R";;;
+3;"SW1";"SW_Slide_SPDT_Straight_CK_OS102011MS2Q";1;"SW_DPDT_x2";;;
+4;"J1";"TestPoint_Pad_2.0x2.0mm";1;"Power-Pin";;;
+5;"PDB1,PDA1";"R_1206_3216Metric";2;"10k";;;
+6;"J10";"TestPoint_Pad_2.0x2.0mm";1;"GND";;;
