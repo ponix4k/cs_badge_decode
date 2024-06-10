@@ -10,9 +10,9 @@ int timer = 8000;
 int bitVal = 0;
 
 // Declare pins
-int pin0 = 12; //d9
-int pin1 = 11; //pd6
-int pin2 = 10; //pb0
+int pin0 = 12; 
+int pin1 = 11; 
+int pin2 = 10; 
 int pin3 = 9;
 int pin4 = 8;
 int pin5 = 4;
@@ -20,7 +20,7 @@ int pin6 = 6;
 int pin7 = 5;
 
 const int ledPin[] = {pin0, pin1, pin2, pin3, pin4, pin5, pin6, pin7}; // Define the pins connected to LEDs
-const int resetPin = 19;
+const int resetPin = 3;
 
 void allOn()
 {
@@ -28,6 +28,9 @@ void allOn()
   {
     digitalWrite(ledPin[i], HIGH);
   }
+  Serial.println("##########");
+  Serial.println("# All On #");
+  Serial.println("##########");
 }
 void allOff()
 {
@@ -35,6 +38,9 @@ void allOff()
   {
     digitalWrite(ledPin[i], LOW);
   }
+  Serial.println("###########");
+  Serial.println("# All Off #");
+  Serial.println("###########");
 }
 
 void setup() 
@@ -51,12 +57,14 @@ void setup()
 
 void resetBadge()
 {
-  
+  digitalWrite(resetPin, LOW);
   Serial.println("#############");
   Serial.println("# RESETTING #");
   Serial.println("#############");
   Serial.println(bitVal);
-
+  Serial.println("Waiting");
+  delay(100);
+  digitalWrite(resetPin, HIGH);
 }
 
 void displayBinary(byte numToShow)
@@ -79,9 +87,8 @@ void loop()
   for(int counter = 0; counter < maxCount; counter++)
   {
     bitVal = counter;
-    digitalWrite(resetPin,HIGH);
     displayBinary(counter);
-    resetBadge();
+    resetBadge(); 
     delay(timer);
   }
 }

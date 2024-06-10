@@ -3,3 +3,7 @@
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/ipch
+test/*
+lib/*
+.DS_STORE
+/Circuites/.DS_STORE
